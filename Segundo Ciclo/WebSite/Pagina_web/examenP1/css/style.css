@@ -1,0 +1,341 @@
+/*este es el codigo de css3 ¨los estilos¨ de la pagina*/
+@charset "utf-8";
+@media only screen and (max-width: 600px) {
+    body {
+        background-size:80px;
+    }
+}
+.est{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+.es{
+	color:#FF0000;
+}
+.esti{
+	font-size: 15px;	
+	padding-top: 0.0033% !important;
+}
+.estilo{
+	padding-right: 1% !important;
+	padding-left: 5% !important;
+	padding-top: 2%;
+}
+
+
+
+
+.fondobus{
+	border: 1px solid #63686e ;
+	background: #63686e;
+	border-top-right-radius:10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius: 10px;
+	width: 112%;
+
+}
+input::-webkit-input-placeholder {
+ 	color: #faf9f9 !important;
+}
+input:-moz-placeholder {
+  	color:#faf9f9 !important; 
+}
+input:-ms-input-placeholder { 
+  	color: #faf9f9 !important; 
+}
+.in{
+	background: #63686e !important;
+	margin-left: 1%;
+}
+.bues{
+	color: red;
+	font-weight: bolder;
+	margin: 5%;
+}
+.form{
+	padding-top: 4% !important;
+	width: 380px !important;
+	height: 100px !important;
+}
+.tama{
+	padding-right: 3% !important;
+	padding-left: 18% !important;
+}
+.boton1{
+	padding-left: 4% !important;
+	padding-right: 5% !important;
+	width:30%;
+	height: 20%
+	padding-top:5% !important;
+	padding-bottom: 5% !important;
+	height: 30px;
+}
+.boton1:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+}
+
+
+
+
+
+.conta2{
+	padding-top: 2%;
+	padding-left: 6% !important;
+	padding-right:6% !important;
+}
+.color{
+	background: red;
+	height: 50px !important;
+	color: white;
+	font-weight: bolder;
+	font-style: none;
+	font-size: 20px;
+	padding-top: 1%; 
+	font-family: 'Merriweather Sans', sans-serif;
+	border-left: 2px solid white ;
+	cursor: pointer;
+}
+.color:hover{
+	background: #5b78a7 !important;
+}
+.a{
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+}
+.b{
+	border-top-right-radius:10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+.imgg{
+	display: block;
+	width:100% !important;
+	height: 500px !important;
+}
+.slide{
+	margin-top: 5%;
+	margin-left:5%; 
+	margin-right: 5%; 
+	margin-bottom: 5%;
+}
+.imggg{
+	display: block;
+	width: 100% !important;
+	height: 500px !important;
+}
+.ca{
+	background: skyblue !important;
+	width: 15px !important;
+	height: 15px !important; 
+}
+.letras{
+	font-weight: bold;
+	color: red;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+
+
+.pdf{
+	float:left;
+	margin-right: 3%;
+}
+
+.conta3{
+	padding-top: 0.5% !important;
+	padding-left: 5% !important;
+	padding-right: 5% !important;
+	padding-bottom: 5% !important;
+}
+.col{
+	text-align: justify;
+}
+.tdg{
+	color:red;
+	font-family: 'Niramit', sans-serif;
+}
+.conta4{
+	padding-bottom: 1% !important;
+	padding-top: 2% !important;
+	padding-right: 5% !important;
+	padding-left: 5% !important;
+	background: #dfd3d3;
+}
+.titulo{
+	font-size:30px;
+	color:#b8b0b0 !important;
+	font-family: 'Lobster', cursive;
+} 
+.titulo2{
+	color: red;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	font-family: 'Raleway', sans-serif;
+}
+.parafo{
+	font-weight: bolder;
+	color:grey;
+}
+.titulo3{
+	color: red;
+	margin: 0 !important;
+	font-family: 'Raleway', sans-serif;	
+	font-size:15px;
+}
+.titulo4{
+	color: red;
+	margin: 0 !important;
+	font-family: 'Raleway', sans-serif;	
+	font-size:15px;
+	padding-top: 3%;
+}
+.separacion{
+	padding-top: 5%;
+	padding-bottom: 8%;
+}
+.conta5{
+	background: grey;
+	padding-bottom: 1% !important;
+	padding-top: 1% !important;
+	padding-right: 5% !important;
+	padding-left: 5% !important;
+}
+.le{
+	color: white;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 12px;
+}
+.sepas{
+	padding-left:13% !important;
+}
+
+
+
+
+
+.hh{
+	padding-right: 2% !important;
+	padding-left: 2% !important;
+}
+
+/* menu */
+
+#menu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+    border-top-left-radius:22px;
+	border-top-right-radius:22px;
+	border-bottom-left-radius:22px;
+	border-bottom-right-radius:22px;
+}
+
+/* items del menu */
+
+#menu ul li {	
+	background-color:red;
+	width: 100%;
+	border:1px double white;
+
+}
+
+/* enlaces del menu */
+
+#menu ul a {
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-weight:400;
+	font-size:15px;
+	padding:10px;
+	font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+/* items del menu */
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li>ul li:hover {
+    background:#5b78a7;
+} 
+#menu ul li:hover{
+	background: black;
+}
+
+/* menu despegable responsive */
+#menu ul ul {
+	display:none;
+	position:all;
+	top:100%;
+	left:0;
+	background:#eee;
+	padding:0;
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+    float:none;
+    width:100%;
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+    display:block;
+}
+.jus{
+	padding-left: 1.5%;
+}
+.inp{
+	width: 50% !important;
+}
+.bul{
+	float: right !important;
+}
+
+
+.inpa{
+	width: 68% !important;
+	margin: 1% !important;
+	border:none !important; 
+	background: #63686e !important;
+	margin-top:2% !important;
+	margin-bottom: 2% !important;
+	padding-left: 3%;
+}
+.botonn1{
+	width: 12% !important;
+	height: 40px !important;
+	margin-left: 17% !important; 
+	background: black !important;
+	border:black !important;
+}
+.prev{
+	background: #63686e !important;
+}
+.tata{
+	color: red !important;
+}

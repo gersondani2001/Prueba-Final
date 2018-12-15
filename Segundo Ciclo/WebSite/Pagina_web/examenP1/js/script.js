@@ -1,0 +1,1 @@
+//este es la operacion logica de la pagina de javaScript
